@@ -1,0 +1,105 @@
+@charset "utf-8";
+body {
+	font-family: Tahoma, Verdana;
+	font-size: 11px;
+	margin: 0px;
+}
+h1 {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	padding: 0;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #EFEFEF;
+}
+p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.description {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	padding: 3px;
+}
+.sources {
+	font-family: Tahoma;
+	font-size: 10px;
+}
+.comment {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+.comments {
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+}
+.comment_text {
+	font-family: Tahoma, Verdana;
+	font-size: 11px;
+	height: 40px;
+	width: 100%;
+}
+.ind_comment {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #EAEAFF;
+	width: 100%;
+	position: relative;
+	padding: 2px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	font-weight: normal;
+	overflow: auto;
+	border: 1px solid #000099;
+	color: #000099;
+}
+.commentlink {
+	font-size: 10px;
+}
+
+.more {
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+	width: 100%;
+	padding-top: 5px;
+}
+
+.imagesize {
+	width: 110px;
+	text-align: left;
+	padding: 3px;	
+}
+
+.sscore {
+	font-size: 13px; 
+	font-family: Impact, Tahoma; 
+	color: #003399;
+}#alldiv {
+	margin: auto;
+	max-width: 300px;
+	left: 0px;
+	right: 0px;
+}
+.ndet {
+	padding: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+}

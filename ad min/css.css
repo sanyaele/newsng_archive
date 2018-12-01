@@ -1,0 +1,36 @@
+@charset "utf-8";
+body {
+	background-color: #006600;
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.allborder {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+.imagesize {
+	width: 110px;
+	text-align: left;
+	padding: 3px;	
+}.boxwid {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	width: 200px;
+	border: 1px solid #0F0;
+}
+.bulbody {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	border: 1px solid #0F0;
+	display: block;
+	margin: 3px;
+	padding: 3px;
+}

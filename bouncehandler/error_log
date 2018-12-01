@@ -1,0 +1,4 @@
+[09-Apr-2014 14:03:42] PHP Warning:  iconv_mime_decode() [<a href='function.iconv-mime-decode'>function.iconv-mime-decode</a>]: Malformed string in /home/newsng/public_html/bouncehandler/bounce_driver.class.php on line 454
+[09-Apr-2014 14:03:43] PHP Warning:  iconv_mime_decode() [<a href='function.iconv-mime-decode'>function.iconv-mime-decode</a>]: Malformed string in /home/newsng/public_html/bouncehandler/bounce_driver.class.php on line 454
+[09-Apr-2014 14:03:43] PHP Warning:  iconv_mime_decode() [<a href='function.iconv-mime-decode'>function.iconv-mime-decode</a>]: Malformed string in /home/newsng/public_html/bouncehandler/bounce_driver.class.php on line 454
+[09-Apr-2014 14:08:03] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/newsng/public_html/bouncehandler/bounce_driver.class.php on line 360

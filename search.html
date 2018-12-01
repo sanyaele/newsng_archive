@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Great Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="css/reset.css" rel="stylesheet">
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/adipoli.css" type="text/css" media="screen" />
+<link href="style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="all" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="css/ie8.css" type="text/css" media="all" /><![endif]-->
+<!--[if IE ]><link rel="stylesheet" href="css/ie.css" type="text/css" media="all" /><![endif]-->
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+</head>
+<body class="sub-page v-divider">		
+<header id="header">
+	<div id="header-top">
+    	<div class="wrapper">
+        	<nav id="main-nav" class="clearfix">
+            	<ul id="main-menu" class="clearfix">
+                	<li class="home-menu-item current-menu-item"><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li>
+                    	<a href="elements.html">Features</a>
+                        <ul>
+                        	<li><a href="blog.html">Blog page</a></li>
+                            <li>
+                            	<a href="single.html">Single page</a>
+                                <ul>
+                                	<li><a href="#">Sample page</a></li>
+                                    <li><a href="#">Sample page</a></li>
+                                    <li><a href="#">Sample page</a></li>
+                                    <li><a href="#">Sample page</a></li>
+                                    <li><a href="#">Sample page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="elements.html">Elements page</a></li>
+                            <li><a href="typography.html">Typography page</a></li>
+                            <li><a href="column.html">Column page</a></li>
+                            <li><a href="search.html">Search page</a></li>
+                            <li><a href="404.html">404 page</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="single.html">Single</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                    <li><a href="elements.html">Elements</a></li>
+                    <li><a href="column.html">Column</a></li>
+                    <li><a href="404.html">404</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul><!--main-menu-->
+            </nav><!--main-nav-->
+        </div><!--wrapper-->
+    </div><!--header-top-->
+    <div id="header-bottom">
+    	<div class="wrapper clearfix">
+        	<div id="logo-image">
+            	<a href="index.html"><img class="responsive-img" src="placeholders/logo.png" alt="" /></a>
+            </div><!--logo-image-->
+            <div id="top-banner">
+            	<a href="#"><img class="responsive-img hover-img" src="placeholders/top-banner.png" alt="" /></a>
+            </div><!--top-banner-->
+        </div><!--wrapper-->
+    </div><!--header-bottom-->
+</header><!--header-->
+<div class="wrapper clearfix">
+	<div id="main-content">
+    	<div id="main-content-inner">
+            <div class="main-content-top clearfix">
+                <div class="breadcrumb clearfix">
+                    <span>You are here:&nbsp;</span>
+                    <a href="index.html">Home</a>
+                    <span class="current-page">&nbsp;&raquo;&nbsp;&nbsp;Search</span>
+                </div><!--breadcrumb-->
+                <div id="search-social" class="clearfix">				 
+                    <ul class="social-links clearfix">                        
+                        <li class="twitter-icon">
+                            <a target="_blank" title="Twitter" class="twitter" href="#"></a>
+                        </li>
+                        <li class="facebook-icon">
+                            <a target="_blank" title="Facebook" class="facebook" href="#"></a>
+                        </li>
+                        <li class="dribbble-icon">
+                            <a target="_blank" title="Dribbble" class="dribbble" href="#"></a>
+                        </li>
+                       <li class="forrst-icon">
+                            <a target="_blank" title="Forrst" class="forrst" href="#"></a>
+                        </li>
+                        <li class="lastfm-icon">
+                            <a target="_blank" title="LastFM" class="lastfm" href="#"></a>
+                        </li>
+                        <li class="linkedin-icon">
+                            <a target="_blank" title="LinkedIn" class="linkedin" href="#"></a>
+                        </li>
+                        <li class="tumblr-icon">
+                            <a target="_blank" title="Tumblr" class="tumblr" href="#"></a>
+                        </li>                                       
+                    </ul><!--end:social-links-->
+                    <div class="search-box clearfix">
+                        <form action="#" class="search-form" method="get">
+                            <input type="text" onBlur="if(this.value=='')this.value=this.defaultValue;" onFocus="if(this.value==this.defaultValue)this.value='';" value="Search" name="s" class="search-text">
+                            <input type="submit" value="" name="submit" class="search-submit">
+                        </form><!-- search-form -->
+                    </div><!--end:search-box-->	
+                </div><!--search-social-->
+            </div><!--main-content-top-->
+            <div class="main-content-bottom clearfix">
+                <div class="column-b">
+                	<ul class="widget kopa-search-list">
+                    	<li class="clearfix">
+                            <article class="entry-item">                            
+                                <div class="entry-content">
+                                    <h6 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h6>
+                                    <div class="entry-meta">
+                                        <span class="entry-date">January 15, 2013</span><span>I</span>
+                                        <a class="entry-comments" href="#"><span>10</span> comments</a>
+                                    </div><!--entry-meta-->
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, <span class="kopa-search-keyword">posuere sit amet</span>, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+                                    <a class="more-link" href="#">Learn more</a>
+                                </div><!--entry-content-->
+                            </article><!--entry-item-->
+                        </li>
+                        <li class="clearfix">
+                            <article class="entry-item">                            
+                                <div class="entry-content">
+                                    <h6 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h6>
+                                    <div class="entry-meta">
+                                        <span class="entry-date">January 15, 2013</span><span>I</span>
+                                        <a class="entry-comments" href="#"><span>10</span> comments</a>
+                                    </div><!--entry-meta-->
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, <span class="kopa-search-keyword">posuere sit amet</span>, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+                                    <a class="more-link" href="#">Learn more</a>
+                                </div><!--entry-content-->
+                            </article><!--entry-item-->
+                        </li>
+                        <li class="clearfix">
+                            <article class="entry-item">                            
+                                <div class="entry-content">
+                                    <h6 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h6>
+                                    <div class="entry-meta">
+                                        <span class="entry-date">January 15, 2013</span><span>I</span>
+                                        <a class="entry-comments" href="#"><span>10</span> comments</a>
+                                    </div><!--entry-meta-->
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, <span class="kopa-search-keyword">posuere sit amet</span>, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+                                    <a class="more-link" href="#">Learn more</a>
+                                </div><!--entry-content-->
+                            </article><!--entry-item-->
+                        </li>
+                        <li class="clearfix">
+                            <article class="entry-item">                            
+                                <div class="entry-content">
+                                    <h6 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h6>
+                                    <div class="entry-meta">
+                                        <span class="entry-date">January 15, 2013</span><span>I</span>
+                                        <a class="entry-comments" href="#"><span>10</span> comments</a>
+                                    </div><!--entry-meta-->
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, <span class="kopa-search-keyword">posuere sit amet</span>, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+                                    <a class="more-link" href="#">Learn more</a>
+                                </div><!--entry-content-->
+                            </article><!--entry-item-->
+                        </li>
+                        <li class="clearfix">
+                            <article class="entry-item">                            
+                                <div class="entry-content">
+                                    <h6 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h6>
+                                    <div class="entry-meta">
+                                        <span class="entry-date">January 15, 2013</span><span>I</span>
+                                        <a class="entry-comments" href="#"><span>10</span> comments</a>
+                                    </div><!--entry-meta-->
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, <span class="kopa-search-keyword">posuere sit amet</span>, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+                                    <a class="more-link" href="#">Learn more</a>
+                                </div><!--entry-content-->
+                            </article><!--entry-item-->
+                        </li>
+                        <li class="clearfix">
+                            <article class="entry-item">                            
+                                <div class="entry-content">
+                                    <h6 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h6>
+                                    <div class="entry-meta">
+                                        <span class="entry-date">January 15, 2013</span><span>I</span>
+                                        <a class="entry-comments" href="#"><span>10</span> comments</a>
+                                    </div><!--entry-meta-->
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, <span class="kopa-search-keyword">posuere sit amet</span>, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+                                    <a class="more-link" href="#">Learn more</a>
+                                </div><!--entry-content-->
+                            </article><!--entry-item-->
+                        </li>
+                        <li class="clearfix">
+                            <article class="entry-item">                            
+                                <div class="entry-content">
+                                    <h6 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h6>
+                                    <div class="entry-meta">
+                                        <span class="entry-date">January 15, 2013</span><span>I</span>
+                                        <a class="entry-comments" href="#"><span>10</span> comments</a>
+                                    </div><!--entry-meta-->
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, <span class="kopa-search-keyword">posuere sit amet</span>, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+                                    <a class="more-link" href="#">Learn more</a>
+                                </div><!--entry-content-->
+                            </article><!--entry-item-->
+                        </li>
+                        <li class="clearfix">
+                            <article class="entry-item">                            
+                                <div class="entry-content">
+                                    <h6 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h6>
+                                    <div class="entry-meta">
+                                        <span class="entry-date">January 15, 2013</span><span>I</span>
+                                        <a class="entry-comments" href="#"><span>10</span> comments</a>
+                                    </div><!--entry-meta-->
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, <span class="kopa-search-keyword">posuere sit amet</span>, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+                                    <a class="more-link" href="#">Learn more</a>
+                                </div><!--entry-content-->
+                            </article><!--entry-item-->
+                        </li>
+                    </ul><!--widget-->
+                    <div class="divider"></div>
+                    <center>
+                        <ul class="pagination clearfix">
+                            <li class="pagination-prev"><a class="paging" href="#">«</a></li>
+                            <li class="current"><a class="paging" href="#">1</a></li>
+                            <li><a class="paging" href="#">2</a></li>
+                            <li><a class="paging" href="#">3</a></li>
+                            <li><a class="paging" href="#">4</a></li>
+                            <li><a class="paging" href="#">5</a></li>
+                            <li class="pagination-next" style="margin-right: 0px;"><a class="paging" href="#">»</a></li>
+                        </ul><!--pagination-->                            
+                    </center>                    
+                </div><!--column-b-->
+                <div class="column-a">
+                	<div class="news-letter clearfix">
+                        <h4>Newsletter</h4>
+                        <form class="newsletter-form" method="post" action="processNewsletterForm.php">
+                            <p class="input-email clearfix">
+                                <input type="text" size="40" class="email" value="Your email..." name="email" onBlur="if(this.value=='')this.value=this.defaultValue;" onFocus="if(this.value==this.defaultValue)this.value='';">
+                                <input type="submit" class="submit" value="Submit">
+                            </p>
+                        </form>
+                        <div id="newsletter-response"></div>
+                    </div><!--news-letter-->
+                    <section class="widget">
+                        <h4 class="widget-title">Latest article</h4>
+                        <a href="#" class="entry-categories">Business</a>
+                        <div class="entry-item">
+                            <h5 class="entry-title"><a href="#">Bulls Scream Loud Despite Timid Numbers</a></h5>
+                            <a href="#" class="entry-thumb kopa-border-1"><img class="hover-img" src="placeholders/330x168/330x168-1.jpg" alt="" /></a>
+                            <p>Molestias ultricies, ante quam urna ut volutpat, egestas dolor dui, nec hac ultrices nulla non netus. Placerat vehicula donec non suscipit egestas, augue vel suspendisse. Et felis venena</p>
+                        </div><!--entry-item-->
+                        <ul class="other-categories">
+                            <li class="clearfix">
+                                <a href="#" class="entry-categories">Business</a>
+                                <span class="entry-date">March 24, 2012</span>
+                                <a href="#">6 Fresh Ways to Wear Your Pencil Skirt</a>
+                            </li>
+                            <li class="clearfix">
+                                <a href="#" class="entry-categories">Business</a>
+                                <span class="entry-date">March 24, 2012</span>
+                                <a href="#">6 Fresh Ways to Wear Your Pencil Skirt</a>
+                            </li>
+                        </ul><!--other-categories-->
+                    </section><!--widget-->
+                    <section class="widget">
+                        <h4 class="widget-title">Older post</h4>
+                        <ul class="older-posts square-list-1">
+                            <li class="clearfix"><a href="#">Duis tincidunt lectus quis dui viverra vestibulum.</a></li>
+                            <li class="clearfix"><a href="#">Duis tincidunt lectus quis dui viverra vestibulum.</a></li>
+                            <li class="clearfix"><a href="#">Duis tincidunt lectus quis dui viverra vestibulum.</a></li>
+                            <li class="clearfix"><a href="#">Duis tincidunt lectus quis dui viverra vestibulum.</a></li>
+                            <li class="clearfix"><a href="#">Duis tincidunt lectus quis dui viverra vestibulum.</a></li>
+                            <li class="clearfix"><a href="#">Duis tincidunt lectus quis dui viverra vestibulum.</a></li>
+                        </ul><!--older-posts-->
+                    </section><!--widget-->
+                    <section class="widget">
+                        <h4 class="widget-title">Recent comments</h4>
+                        <ul class="recent-comments">
+                            <li class="clearfix">
+                                <article>
+                                    <header>
+                                        <p><strong>John Smith</strong>&nbsp;commented on&nbsp;<a href="#">Gulf War commander Schwarzkopf dies</a> <em>- 3 hours ago</em></p>
+                                    </header>
+                                    <div class="entry-content clearfix">
+                                        <a href="#" class="entry-thumb"><img src="placeholders/50x50/50x50-1.jpg" alt="" /></a>
+                                        <p>" Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo..."</p>
+                                    </div><!--entry-content-->
+                                </article>
+                            </li>
+                            <li class="clearfix">
+                                <article>
+                                    <header>
+                                        <p><strong>John Smith</strong>&nbsp;commented on&nbsp;<a href="#">Gulf War commander Schwarzkopf dies</a> <em>- 3 hours ago</em></p>
+                                    </header>
+                                    <div class="entry-content clearfix">
+                                        <a href="#" class="entry-thumb"><img src="placeholders/50x50/50x50-2.jpg" alt="" /></a>
+                                        <p>" Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo..."</p>
+                                    </div><!--entry-content-->
+                                </article>
+                            </li>
+                        </ul><!--recent--comments-->
+                    </section><!--widget-->
+                    <section class="widget">
+                    	<h4 class="widget-title">Updates from twitter</h4>
+                        <div class='twitter_outer'>
+                            <input type='hidden' class='tweet_id' value='envato'>
+                            <input type='hidden' class='tweet_count' value='3'>
+                            <div class='twitter_inner'></div>
+                        </div><!--twitter_outer-->
+                    </section><!--widget-->
+                </div><!--column-a-->
+                <div class="clear"></div>
+            </div><!--main-content-bottom-->            
+        </div><!--main-content-inner-->
+    </div><!--main-content-->
+</div><!--wrapper-->
+<div class="page-bottom">
+	<div class="wrapper">
+        <section class="bottom-sidebar">
+            <div class="one-forth">
+                <aside class="widget">
+                    <h3 class="widget-title">About us</h3>
+                    <div class="text-widget">
+                    	<span class="kp-dropcap dark">G</span>
+                        <p>The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        <p>The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
+                    </div><!--text-widget-->
+                </aside><!--widget-->
+            </div><!--one-forth-->
+            <div class="one-forth">
+            	<aside class="widget">
+                	<h3 class="widget-title">Categories</h3>
+                    <ul class="kp-categories clearfix">
+                    	<li><a href="#">Coding</a></li>
+                        <li><a href="#">Coding</a></li>
+                        <li><a href="#">Freebies</a></li>
+                        <li><a href="#">Freebies</a></li>
+                        <li><a href="#">Inspiration</a></li>
+                        <li><a href="#">Inspiration</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">WordPress</a></li>
+                        <li><a href="#">WordPress</a></li>
+                    </ul>
+                </aside><!--widget-->
+            </div><!--one-forth-->
+            <div class="one-forth">
+            	<aside class="widget">
+                	<h3 class="widget-title">Tags</h3>
+                    <a class="kp-tag" href="#"><span>Start over</span></a>
+                    <a class="kp-tag" href="#"><span>What is TagCrowd</span></a>
+                    <a class="kp-tag" href="#"><span>Blog</span></a>
+                    <a class="kp-tag" href="#"><span>Help</span></a>
+                    <a class="kp-tag" href="#"><span>Contact</span></a>
+                    <a class="kp-tag" href="#"><span>Patrons Buy</span></a>
+                    <a class="kp-tag" href="#"><span>Start over</span></a>
+                    <a class="kp-tag" href="#"><span>What is</span></a>
+                    <a class="kp-tag" href="#"><span>TagCrowd</span></a>
+                    <a class="kp-tag" href="#"><span>Blog</span></a>
+                    <a class="kp-tag" href="#"><span>Help</span></a>
+                </aside><!--widget-->
+            </div><!--one-forth-->
+            <div class="one-forth last">
+            	<aside class="widget">
+                	<h3 class="widget-title">Flickr Feeds</h3>
+                    <div class="flickr-wrap clearfix" id="flickr-feed-1">                    
+                        <ul class="kopa-flickr-widget clearfix"></ul>
+                    </div><!--flickr-wrap-->
+                </aside><!--widget-->
+            </div><!--one-forth-->
+            <div class="clear"></div>
+        </section><!--bottom-sidebar-->
+        <footer id="footer" class="clearfix">
+        	<p id="copyrights">Copyright &copy; 2012 KopaTheme. All Rights Reserved</p>
+            <nav id="bottom-nav">
+            	<ul class="bottom-menu clearfix">
+                	<li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Single</a></li>
+                    <li><a href="#">Shortcode</a></li>
+                </ul>
+            </nav><!--bottom-nav-->
+        </footer><!--footer-->
+    </div><!--wrapper-->
+    <p id="back-top">
+        <a href="#top">Back to Top</a>
+    </p>
+</div><!--page-bottom-->
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.tweet.js"></script>
+<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/jquery.carouFredSel-5.6.4.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<script type="text/javascript" src="js/jquery.adipoli.js"></script>
+<script src="js/custom.js" charset="utf-8"></script>
+
+</body>
+</html>
